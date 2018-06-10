@@ -1,0 +1,17 @@
+#tablehelm{
+  padding: 20px;
+  border: 2px solid;
+}
+#form{
+  padding: 20px;
+  border: 2px solid;
+}
+
+#cart{
+  padding: 20px;
+  border: 2px solid;
+}
+
+th, td, tr{
+  border: 2px solid;
+}

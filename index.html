@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arai Helmet Store</title>
+  <script src="shop.js"></script>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div id="tablehelm">
+    <table style="width:100%">
+      <tr>
+        <th>Picture</th>
+        <th>Product Name</th>
+        <th>Product Code</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td><img src="araidoohan.jpg" width="180" height="180"></td>
+        <td>Arai RX7X Doohan</td>
+        <td>1</td>
+        <td>$125</td>
+      </tr>
+      <tr>
+        <td><img src="araimvk.jpg" width="180" height="180"></td>
+        <td>Arai RX7X Maverick Vinales</td>
+        <td>2</td>
+        <td>$110</td>
+      </tr>
+      <tr>
+        <td><img src="arainakagami.jpg" width="180" height="180"></td>
+        <td>Arai RX7X Nakagami</td>
+        <td>3</td>
+        <td>$120</td>
+      </tr>
+      <tr>
+        <td><img src="araipedrosa.jpg" width="180" height="180"></td>
+        <td>Arai RX7X Dani Pedrosa</td>
+        <td>4</td>
+        <td>$115 </td>
+      </tr>
+    </table>
+  </div>
+  <div id='form'>
+    <label>Product Name</label>
+    <input id='pname' type='text'><br>
+    <label>Product Code</label>
+    <input id='pcode' type='number'><br>
+    <label>Quantity</label>
+    <input id='pqty' type='number'><br>
+    <label>Unit Price</label>
+    <input id='price' type='number'><br>
+    <button onclick='tambahItem()'>Add item</button>
+  </div>
+  <div id='cart'></div>
+</body>
+</html>
